@@ -22,6 +22,7 @@ describe('My Second Test Suite', function () {
 				$e1.click()
 			}
 		})
+
 		//autocomplete
 		cy.get('#autocomplete').should('have.value', 'India')
 		//visible invisible
