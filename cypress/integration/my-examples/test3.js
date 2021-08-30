@@ -12,7 +12,6 @@ describe('My Second Test Suite', function () {
 		cy.get('input[type="checkbox"]').check(['option2', 'option3'])
 
 		//Static Dropdown
-
 		cy.get('select').select('option2').should('have.value', 'option2')
 
 		//Dynamic dropdowns
