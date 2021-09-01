@@ -33,7 +33,6 @@ describe('My Second Test Suite', function () {
 		cy.get('#displayed-text').should('be.visible')
 
 		//radio buttons
-
 		cy.get('[value="radio2"]').check().should('be.checked')
 	})
 })
