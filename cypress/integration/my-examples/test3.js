@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
-describe('My Second Test Suite', function () {
-	it('My FirstTest case', function () {
+describe('My Second Test Suite', () => {
+	it('My FirstTest case', () => {
 		//Check boxes
 		cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
 		cy.get('#checkBoxOption1')
